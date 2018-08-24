@@ -1,49 +1,49 @@
-# arduino-ConstantTemperatureSteamChamberiP‰·‘…§ŒäƒvƒƒOƒ‰ƒ€ ƒ\[ƒXƒR[ƒhj
-## ŠT—v
-Interface 2018”N10ŒŽ† “ÁW‘æ3•” ‘æ1Í “dŽq‹@Ší‚Ì“V“Gu‚‰·E‚Ž¼“xvŠÈˆÕŽŽŒ±ƒ`ƒFƒ“ƒo‚Ì»ìg‚Ìƒ\[ƒXƒR[ƒh‚Å‚·B
+# arduino-ConstantTemperatureSteamChamberï¼ˆæ’æ¸©æ§½åˆ¶å¾¡ãƒ—ãƒ­ã‚°ãƒ©ãƒ  ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ï¼‰
+## æ¦‚è¦
+Interface 2018å¹´10æœˆå· ç‰¹é›†ç¬¬3éƒ¨ ç¬¬1ç«  é›»å­æ©Ÿå™¨ã®å¤©æ•µã€Œé«˜æ¸©ãƒ»é«˜æ¹¿åº¦ã€ç°¡æ˜“è©¦é¨“ãƒã‚§ãƒ³ãƒã®è£½ä½œã®ã‚½ãƒ¼ã‚¹ã‚³ãƒ¼ãƒ‰ã§ã™ã€‚
 
 
-## ‘O’ñðŒ
-ŠJ”­ŠÂ‹«‚ÍArduino IDE 1.8.5‚ðŽg—p‚µƒ^[ƒQƒbƒg‚Æ‚µ‚ÄArduino UNO‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·B
+## å‰ææ¡ä»¶
+é–‹ç™ºç’°å¢ƒã¯Arduino IDE 1.8.5ã‚’ä½¿ç”¨ã—ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã¨ã—ã¦Arduino UNOã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã€‚
 
 
-## Žg—p‚µ‚Ä‚¢‚éƒ‰ƒCƒuƒ‰ƒŠ
-ˆÈ‰º‚Ìƒ‰ƒCƒuƒ‰ƒŠ‚ðŽg—p‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅŽæ‚èž‚ñ‚Å‚­‚¾‚³‚¢B
+## ä½¿ç”¨ã—ã¦ã„ã‚‹ãƒ©ã‚¤ãƒ–ãƒ©ãƒª
+ä»¥ä¸‹ã®ãƒ©ã‚¤ãƒ–ãƒ©ãƒªã‚’ä½¿ç”¨ã—ã¦ã„ã¾ã™ã®ã§å–ã‚Šè¾¼ã‚“ã§ãã ã•ã„ã€‚
 
 1. [TimerOne](https://github.com/PaulStoffregen/TimerOne)
 2. [Adafruit_MAX31855](https://github.com/adafruit/Adafruit-MAX31855-library)
 
 
-## ƒ}ƒCƒRƒ“‚Ö‚Ì‘ž‚Ý
-1. ƒvƒƒOƒ‰ƒ€‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚é
+## ãƒžã‚¤ã‚³ãƒ³ã¸ã®æ›¸è¾¼ã¿
+1. ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
     ```
     $ git clone https://github.com/MinenoLab/arduino-ConstantTemperatureSteamChamber.git
     ```
-1. ArduinoUNO‚ðPC‚ÉUSBƒP[ƒuƒ‹‚ÅÚ‘±‚·‚é
-1. ArduinoIDE‚ð‹N“®‚·‚é
-1. [ƒtƒ@ƒCƒ‹]-[ŠJ‚­] ‚©‚ç steam.ino‚ðŠJ‚­
-    - steam.ino‚Ísteam‚Æ‚¢‚¤–¼‘O‚ÌƒtƒHƒ‹ƒ_‚Ì’†‚É‚ ‚é•K—v‚ª‚ ‚éŽ|‚Ìƒ_ƒCƒAƒƒO‚ªo‚é‚Ì‚Å[OK]‚ð‰Ÿ‚·
-1. [ƒXƒPƒbƒ`]-[ŒŸØEƒRƒ“ƒpƒCƒ‹]‚ðŽÀs‚·‚é
-    - ƒGƒ‰[‚ªo‚È‚¯‚ê‚Î—Ç‚¢
-1. [ƒXƒPƒbƒ`]-[ƒ}ƒCƒRƒ“ƒ{[ƒh‚É‘‚«ž‚Þ]‚ðŽÀs‚·‚é
-    - ƒGƒ‰[‚ªo‚È‚¯‚ê‚Î—Ç‚¢
-1. Arduino UNO‚ðPC‚©‚çŽæ‚èŠO‚·
+1. ArduinoUNOã‚’PCã«USBã‚±ãƒ¼ãƒ–ãƒ«ã§æŽ¥ç¶šã™ã‚‹
+1. ArduinoIDEã‚’èµ·å‹•ã™ã‚‹
+1. [ãƒ•ã‚¡ã‚¤ãƒ«]-[é–‹ã] ã‹ã‚‰ steam.inoã‚’é–‹ã
+    - steam.inoã¯steamã¨ã„ã†åå‰ã®ãƒ•ã‚©ãƒ«ãƒ€ã®ä¸­ã«ã‚ã‚‹å¿…è¦ãŒã‚ã‚‹æ—¨ã®ãƒ€ã‚¤ã‚¢ãƒ­ã‚°ãŒå‡ºã‚‹ã®ã§[OK]ã‚’æŠ¼ã™
+1. [ã‚¹ã‚±ãƒƒãƒ]-[æ¤œè¨¼ãƒ»ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«]ã‚’å®Ÿè¡Œã™ã‚‹
+    - ã‚¨ãƒ©ãƒ¼ãŒå‡ºãªã‘ã‚Œã°è‰¯ã„
+1. [ã‚¹ã‚±ãƒƒãƒ]-[ãƒžã‚¤ã‚³ãƒ³ãƒœãƒ¼ãƒ‰ã«æ›¸ãè¾¼ã‚€]ã‚’å®Ÿè¡Œã™ã‚‹
+    - ã‚¨ãƒ©ãƒ¼ãŒå‡ºãªã‘ã‚Œã°è‰¯ã„
+1. Arduino UNOã‚’PCã‹ã‚‰å–ã‚Šå¤–ã™
 
 
-## Žg‚¢•û
-### ƒƒOŽæ“¾•û–@
-ƒƒO‚ðŽæ“¾‚·‚éê‡‚ÍPC‚Éƒ^[ƒ~ƒiƒ‹ƒGƒ~ƒ…ƒŒ[ƒ^‚ª•K—v‚Å‚·B
-Windows‚ÍTeraTermAMac‚âLinux‚È‚Ç‚ÍMinicom‚ªWebã‚Éî•ñ‚ª‘½‚­‚¨‚·‚·‚ß‚Å‚·B
-ƒVƒŠƒAƒ‹ƒ|[ƒg‚ÌÝ’èƒpƒ‰ƒ[ƒ^‚ÍŽŸ‚Ì‚æ‚¤‚É‚µ‚Ü‚·B
+## ä½¿ã„æ–¹
+### ãƒ­ã‚°å–å¾—æ–¹æ³•
+ãƒ­ã‚°ã‚’å–å¾—ã™ã‚‹å ´åˆã¯PCã«ã‚¿ãƒ¼ãƒŸãƒŠãƒ«ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚¿ãŒå¿…è¦ã§ã™ã€‚
+Windowsã¯TeraTermã€Macã‚„Linuxãªã©ã¯MinicomãŒWebä¸Šã«æƒ…å ±ãŒå¤šããŠã™ã™ã‚ã§ã™ã€‚
+ã‚·ãƒªã‚¢ãƒ«ãƒãƒ¼ãƒˆã®è¨­å®šãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ã¯æ¬¡ã®ã‚ˆã†ã«ã—ã¾ã™ã€‚
 
-|ƒpƒ‰ƒ[ƒ^|Ý’è’l|
+|ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿|è¨­å®šå€¤|
 |:--------|:-----|
-|ƒf[ƒ^“]‘—‘¬“x|9600 bps|
-|ƒLƒƒƒ‰ƒNƒ^ƒrƒbƒg’·|8|
-|ƒpƒŠƒeƒBƒ`ƒFƒbƒN|‚È‚µ|
-|ƒXƒgƒbƒvƒrƒbƒg”|1|
-|ƒtƒ[§Œä|‚È‚µ|
+|ãƒ‡ãƒ¼ã‚¿è»¢é€é€Ÿåº¦|9600 bps|
+|ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ“ãƒƒãƒˆé•·|8|
+|ãƒ‘ãƒªãƒ†ã‚£ãƒã‚§ãƒƒã‚¯|ãªã—|
+|ã‚¹ãƒˆãƒƒãƒ—ãƒ“ãƒƒãƒˆæ•°|1|
+|ãƒ•ãƒ­ãƒ¼åˆ¶å¾¡|ãªã—|
 
-### ‘•’u‚ÌŽg‚¢•û
-Arduino‚É“dŒ¹‚ð“Š“ü‚µ‚½Žž“_‚Å§Œä‚ªŠJŽn‚³‚ê‚Ü‚·B
+### è£…ç½®ã®ä½¿ã„æ–¹
+Arduinoã«é›»æºã‚’æŠ•å…¥ã—ãŸæ™‚ç‚¹ã§åˆ¶å¾¡ãŒé–‹å§‹ã•ã‚Œã¾ã™ã€‚
 
